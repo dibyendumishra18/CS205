@@ -1,1 +1,1 @@
-grep -o -E '\w+'< 2.txt | sort -u -f | wc -l
+grep -o -E '\w+'< input_filename.txt | sort -u -f | wc -l
